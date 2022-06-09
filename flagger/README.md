@@ -54,9 +54,6 @@ helm upgrade -i flagger flagger/flagger \
 --set meshProvider=nginx
 ```
 
-```
-http://themoonraker13.westus2.cloudapp.azure.com
-```
 6.  Create the Source Definition
 ```
 flux create source git gitops-foundations \
